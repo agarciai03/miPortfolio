@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
-<body>
+<body id="intro">
     <nav class="navbar">
         <ul class="nav-list">
+            <li><a href="#intro" class="nav-link">Inicio</a></li>
             <li><a href="#about" class="nav-link">Sobre mí</a></li>
+            <li><a href="#contact" class="nav-link">Contacto</a></li>
             <li><a href="#projects" class="nav-link">Proyectos</a></li>
         </ul>
     </nav>
@@ -27,7 +29,20 @@
             Me especializo en diseñar interfaces limpias y funcionales, siempre con un toque creativo.
             Descubre algunos de mis trabajos a continuación</h1>
         <p><img src="imagenes/flecha.png" alt="flecha-abajo" id="flecha"></p>
+
     </header>
+    <section id="contact">
+        <h2 class="subtitle">Sígueme</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/alberto-garc%C3%ADa-izquierdo-03930735b/" target="_blank" class="btn"
+                title="LinkedIn">
+                <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+            </a>
+            <a href="https://github.com/agarciai03" target="_blank" class="btn" title="GitHub">
+                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+        </div>
+    </section>
 
     <main>
         <section id="projects">
@@ -38,9 +53,10 @@
                     <h3 class="card-title">Figma</h3>
                     <p class="card-text">Guía de estilos y prototipo de portfolio.</p>
                     <div class="links">
-                        <a href="https://www.figma.com/design/IgmBRzrUNU1i8qGAPVlnpF/Gu%C3%ADa-de-estilos?node-id=0-1&t=CzZEZ62SaHWoayZX-1"
-                            target="_blank" title="Ver en Figma">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" style="width:24px;">
+                        <img src="ruta/imagen.jpg" alt="..." class="project-image">
+                        <a href="" target="_blank" title="Ver en Figma">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma"
+                                style="width:24px;">
                         </a>
                     </div>
                 </div>
@@ -57,7 +73,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="card">
                     <h3 class="card-title">Tabla Dinámica</h3>
                     <p class="card-text">Genera tablas interactivas en tiempo real.</p>
