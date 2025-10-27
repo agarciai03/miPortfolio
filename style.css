@@ -112,10 +112,8 @@ body {
     margin-top: 4.5rem;
 }
 
-
 .avatar {
-    width: 300px;
-    max-width: 100%;
+    width: min(300px, 90vw);
     margin-bottom: var(--small-space);
 }
 
@@ -164,7 +162,6 @@ main {
     margin: 0;
 }
 
-/* Proyectos */
 #projects {
     padding: var(--extra-large-space) var(--normal-space);
     flex-grow: 1;
@@ -179,22 +176,9 @@ main {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--large-space);
     padding: 0 var(--normal-space);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 .card {
@@ -222,6 +206,7 @@ main {
     color: var(--primary-color);
     font-size: 1.2rem;
     text-shadow: 0 0 8px var(--primary-color), 0 0 15px var(--primary-color);
+    margin: 0;
 }
 
 .card-text {
@@ -244,7 +229,6 @@ main {
     text-shadow: 0 0 12px var(--secondary-color), 0 0 25px var(--secondary-color);
 }
 
-/* Footer */
 .footer {
     background: var(--surface-color);
     padding: 0.8rem;
