@@ -116,7 +116,7 @@ body {
 }
 
 .fa-css3-alt {
-    color: #264de4;
+    color: #2678e4;
 }
 
 .fa-js {
@@ -198,7 +198,8 @@ main {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(280px, auto);
     gap: var(--large-space);
     padding: 0 var(--normal-space);
 }
