@@ -101,6 +101,28 @@ body {
     transform: scale(1.05);
 }
 
+.tech-icons {
+    margin: var(--medium-space) 0;
+    font-size: 1.4rem;
+    color: var(--muted-text-color);
+}
+
+.tech-icons i {
+    margin: 0 0.4rem;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
 .banner {
     background: var(--surface-color);
     padding: var(--small-space) var(--medium-space);
