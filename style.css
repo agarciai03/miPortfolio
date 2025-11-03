@@ -15,6 +15,10 @@
     --magenta-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff inset;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
@@ -261,8 +265,34 @@ main {
     line-height: 1.4;
     color: var(--muted-text-color);
     text-shadow: 0 0 8px var(--secondary-color);
-    box-sizing: border-box;
     text-align: center;
     box-shadow: var(--cyan-shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 0 0.8rem;
+        gap: 1.2rem;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .avatar {
+        width: min(250px, 90vw);
+    }
+
+    #about {
+        padding: 0.25rem 0.8rem;
+        margin: 0 0.8rem;
+        max-width: none;
+    }
 }
