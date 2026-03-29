@@ -12,10 +12,10 @@
 <body id="intro">
     <nav class="navbar">
         <ul class="nav-list">
-            <li><a href="#intro" class="nav-link">Inicio</a></li>
-            <li><a href="#about" class="nav-link">Sobre mí</a></li>
-            <li><a href="#contact" class="nav-link">Contacto</a></li>
-            <li><a href="#projects" class="nav-link">Proyectos</a></li>
+            <li><a href="#intro" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#about" class="nav-link"><i class="fas fa-user-astronaut"></i> Sobre mí</a></li>
+            <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li><a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i> Proyectos</a></li>
         </ul>
     </nav>
 
@@ -28,9 +28,17 @@
         <h1 class="text" id="about">Desarrollador web con experiencia en proyectos dinámicos e interactivos.
             Me especializo en diseñar interfaces limpias y funcionales, siempre con un toque creativo.
             Descubre algunos de mis trabajos a continuación</h1>
+
+        <div style="margin-top: 2rem; margin-bottom: 6rem;">
+            <a href="./documentos/CV_Alberto_Garcia.pdf" target="_blank" class="btn" title="Ver y descargar Currículum">
+                <i class="fas fa-file-pdf" aria-hidden="true"></i> Ver Currículum
+            </a>
+        </div>
+
         <p><img src="imagenes/flecha.png" alt="flecha-abajo" id="flecha"></p>
 
     </header>
+
     <section id="contact">
         <h2 class="subtitle">Sígueme</h2>
         <div class="social-links">
@@ -50,14 +58,38 @@
             <div class="grid">
 
                 <div class="card">
-                    <h3 class="card-title">Figma</h3>
-                    <p class="card-text">Guía de estilos y prototipo de portfolio.</p>
+                    <h3 class="card-title">Pokedex</h3>
+                    <p class="card-text">Aplicación Web Interactiva y Consumo de APIs desarrollada con React y
+                        TypeScript. Diseñada con un fuerte enfoque en UI/UX, implementa
+                        animaciones fluidas, scroll infinito y cruce de datos en tiempo real entre múltiples APIs.</p>
+
+                    <div class="tech-icons"
+                        style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 15px;">
+
+                        <i class="fab fa-react" aria-hidden="true" title="React"
+                            style="color: #61DAFB; font-size: 1.4em; margin: 0;"></i>
+
+                        <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" title="TypeScript"
+                            style="width: 1.4em; height: 1.4em; margin: 0;" aria-hidden="true">
+
+                        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS"
+                            title="Tailwind CSS" style="width: 1.4em; height: 1.4em; margin: 0;" aria-hidden="true">
+
+                        <img src="https://cdn.simpleicons.org/framer/FFFFFF" alt="Framer Motion" title="Framer Motion"
+                            style="width: 1.4em; height: 1.4em; margin: 0;" aria-hidden="true">
+
+                        <img src="https://cdn.simpleicons.org/vite/646CFF" alt="Vite" title="Vite"
+                            style="width: 1.4em; height: 1.4em; margin: 0;" aria-hidden="true">
+
+                    </div>
+
                     <div class="links">
-                        <img src="imagenes_proyectos/figma.png" alt="figma" class="project-image">
-                        <a href="https://www.figma.com/design/IgmBRzrUNU1i8qGAPVlnpF/Gu%C3%ADa-de-estilos?node-id=0-1&t=KjeUx2QaKBOcf6EG-1"
-                            target="_blank" title="Ver en Figma">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma"
-                                style="width:24px;">
+                        <img src="imagenes_proyectos/pokedex.png" alt="reino" class="project-image">
+                        <a href="https://agarciai03.github.io/pokedex/" target="_blank" title="Ver Proyecto">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/agarciai03/pokedex" target="_blank" title="Ver Código">
+                            <i class="fab fa-github fa-lg" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -70,7 +102,8 @@
                         <i class="fab fa-java" aria-hidden="true" title="Java / JSP"></i>
                         <i class="fab fa-js" aria-hidden="true" title="JavaScript"></i>
                         <i class="fas fa-server" aria-hidden="true" title="Tomcat"></i>
-                        <i class="fas fa-database" aria-hidden="true" title="MySQL"></i>
+                        <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" title="MySQL"
+                            style="width: 1.4em; height: 1.4em; margin: 0;" aria-hidden="true">
                     </div>
                     <div class="links">
                         <img src="imagenes_proyectos/mundoHardware.png" alt="MundoHardware" class="project-image">
@@ -165,6 +198,22 @@
                 </div>
 
                 <div class="card">
+                    <h3 class="card-title">Figma</h3>
+                    <p class="card-text">Guía de estilos y prototipo de portfolio.</p>
+
+                    <div class="tech-icons" style="min-height: 28px;"></div>
+
+                    <div class="links">
+                        <img src="imagenes_proyectos/figma.png" alt="figma" class="project-image">
+                        <a href="https://www.figma.com/design/IgmBRzrUNU1i8qGAPVlnpF/Gu%C3%ADa-de-estilos?node-id=0-1&t=KjeUx2QaKBOcf6EG-1"
+                            target="_blank" title="Ver en Figma">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma"
+                                style="width:24px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
                     <h3 class="card-title">Consultoría web</h3>
                     <p class="card-text">Landing page animada que presente los servicios de una consultoría
                         de desarrollo web, mediante el uso de GSAP.
@@ -240,6 +289,30 @@
         <span class="close-modal">&times;</span>
         <img class="modal-content" id="img-ampliada">
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from(".banner .avatar", { duration: 1.2, y: -100, opacity: 0, ease: "bounce.out" });
+        gsap.from(".banner .text", { duration: 1, y: 50, opacity: 0, delay: 0.5, ease: "power3.out" });
+        gsap.from(".banner .btn", { duration: 1, y: 30, opacity: 0, delay: 0.8, ease: "power3.out" });
+
+        gsap.from(".social-links .btn", {
+            scrollTrigger: { trigger: "#contact", start: "top 95%" },
+            duration: 0.8, scale: 0, opacity: 0, stagger: 0.2, ease: "back.out(1.7)",
+            clearProps: "all"
+        });
+
+        gsap.from(".card", {
+            scrollTrigger: { trigger: "#projects", start: "top 80%" },
+            duration: 0.8, y: 100, opacity: 0, stagger: 0.15, ease: "power2.out",
+            clearProps: "all"
+        });
+    </script>
+
     <script>
         const modal = document.getElementById("image-modal");
         const modalImg = document.getElementById("img-ampliada");
